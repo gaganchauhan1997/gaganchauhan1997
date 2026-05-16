@@ -1,0 +1,53 @@
+<svg width="1280" height="220" viewBox="0 0 1280 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tech stack overview">
+  <defs>
+    <linearGradient id="sSpace" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#050510"/>
+      <stop offset="100%" stop-color="#08081a"/>
+    </linearGradient>
+    <pattern id="sgrid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#FFD60A" opacity="0.16"/>
+    </pattern>
+    <radialGradient id="sCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="220" fill="url(#sSpace)"/>
+  <ellipse cx="640" cy="110" rx="500" ry="130" fill="url(#sCyan)"/>
+  <rect width="1280" height="220" fill="url(#sgrid)" opacity="0.45"/>
+
+  <!-- Section label -->
+  <g transform="translate(60,32)">
+    <rect width="14" height="14" fill="#00F0FF"/>
+    <text x="24" y="12" font-family="'JetBrains Mono','Courier New',monospace" font-weight="800" font-size="13" fill="#00F0FF" letter-spacing="3">03 //</text>
+    <text x="84" y="12" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="13" fill="#FFFBEA" letter-spacing="2">▸ TECH STACK · WARTIME EDITION</text>
+  </g>
+
+  <!-- Three columns header -->
+  <g transform="translate(60,68)">
+    <!-- Column 1 -->
+    <rect x="0" y="0" width="380" height="32" fill="#FFD60A" stroke="#0A0A0A" stroke-width="3"/>
+    <text x="190" y="22" font-family="'JetBrains Mono','Courier New',monospace" font-weight="800" font-size="13" fill="#0A0A0A" text-anchor="middle" letter-spacing="2">▸ FRONTEND</text>
+    <!-- Column 2 -->
+    <rect x="392" y="0" width="380" height="32" fill="#FF006E" stroke="#0A0A0A" stroke-width="3"/>
+    <text x="582" y="22" font-family="'JetBrains Mono','Courier New',monospace" font-weight="800" font-size="13" fill="#FFFBEA" text-anchor="middle" letter-spacing="2">▸ BACKEND · INFRA</text>
+    <!-- Column 3 -->
+    <rect x="784" y="0" width="376" height="32" fill="#00F0FF" stroke="#0A0A0A" stroke-width="3"/>
+    <text x="972" y="22" font-family="'JetBrains Mono','Courier New',monospace" font-weight="800" font-size="13" fill="#0A0A0A" text-anchor="middle" letter-spacing="2">▸ AI · COMMERCE</text>
+  </g>
+
+  <!-- Tech listings -->
+  <g transform="translate(60,116)" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="12" letter-spacing="1">
+    <text x="0"   y="0"  fill="#FFD60A">React 19 · TypeScript · Vite</text>
+    <text x="0"   y="22" fill="#FFFBEA" opacity="0.75">Tailwind · shadcn · Next.js</text>
+    <text x="0"   y="44" fill="#FFFBEA" opacity="0.55">Framer · GSAP · Canvas 2D</text>
+
+    <text x="392" y="0"  fill="#FF006E">Cloudflare Workers · Pages</text>
+    <text x="392" y="22" fill="#FFFBEA" opacity="0.75">Node · Python · PHP · WPGraphQL</text>
+    <text x="392" y="44" fill="#FFFBEA" opacity="0.55">Postgres · KV · R2 · D1</text>
+
+    <text x="784" y="0"  fill="#00F0FF">Groq · Gemini · Claude · Llama</text>
+    <text x="784" y="22" fill="#FFFBEA" opacity="0.75">LangChain · RAG · WooCommerce</text>
+    <text x="784" y="44" fill="#FFFBEA" opacity="0.55">Razorpay · WordPress · n8n</text>
+  </g>
+</svg>

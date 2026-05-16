@@ -1,0 +1,87 @@
+<svg width="1280" height="340" viewBox="0 0 1280 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mission — Building Intelligent Systems Beyond Imagination">
+  <defs>
+    <linearGradient id="missSpace" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#050510"/>
+      <stop offset="100%" stop-color="#08081a"/>
+    </linearGradient>
+    <radialGradient id="missGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF006E" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#FF006E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="missGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="missGlow3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#B026FF" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#B026FF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="mgrid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#FFD60A" opacity="0.18"/>
+    </pattern>
+    <pattern id="mscan" x="0" y="0" width="100" height="3" patternUnits="userSpaceOnUse">
+      <rect width="100" height="1" fill="#FFFBEA" opacity="0.025"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="340" fill="url(#missSpace)"/>
+  <ellipse cx="240" cy="170" rx="320" ry="180" fill="url(#missGlow1)"/>
+  <ellipse cx="1040" cy="170" rx="320" ry="180" fill="url(#missGlow2)"/>
+  <ellipse cx="640" cy="170" rx="380" ry="200" fill="url(#missGlow3)"/>
+  <rect width="1280" height="340" fill="url(#mgrid)" opacity="0.5"/>
+  <rect width="1280" height="340" fill="url(#mscan)"/>
+
+  <!-- Star sprinkles -->
+  <g fill="#FFFBEA">
+    <circle cx="120" cy="48" r="1.2"/>
+    <circle cx="280" cy="32" r="0.9"/>
+    <circle cx="500" cy="50" r="1.4"/>
+    <circle cx="780" cy="36" r="1"/>
+    <circle cx="1020" cy="42" r="1.3"/>
+    <circle cx="1180" cy="34" r="0.9"/>
+    <circle cx="60" cy="300" r="1.1"/>
+    <circle cx="320" cy="310" r="0.8"/>
+    <circle cx="580" cy="312" r="1.3"/>
+    <circle cx="860" cy="308" r="0.9"/>
+    <circle cx="1100" cy="318" r="1.2"/>
+    <circle cx="1220" cy="312" r="1"/>
+  </g>
+  <g fill="#FFD60A">
+    <circle cx="180" cy="48" r="1.6"/>
+    <circle cx="640" cy="32" r="1.4"/>
+    <circle cx="1100" cy="42" r="1.5"/>
+  </g>
+  <g fill="#FF006E">
+    <circle cx="420" cy="42" r="1.5"/>
+    <circle cx="940" cy="46" r="1.3"/>
+  </g>
+  <g fill="#00F0FF">
+    <circle cx="320" cy="304" r="1.5"/>
+    <circle cx="1080" cy="306" r="1.6"/>
+  </g>
+
+  <!-- Section meta -->
+  <g transform="translate(60,40)">
+    <rect width="14" height="14" fill="#FF006E"/>
+    <text x="24" y="12" font-family="'JetBrains Mono','Courier New',monospace" font-weight="800" font-size="13" fill="#FF006E" letter-spacing="3">05 //</text>
+    <text x="84" y="12" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="13" fill="#FFFBEA" letter-spacing="2">▸ MISSION · MANIFESTO · NORTH STAR</text>
+  </g>
+
+  <!-- Main headline (three lines, cinematic) -->
+  <text x="640" y="138" font-family="'Bebas Neue','Helvetica',sans-serif" font-weight="900" font-size="56" fill="#FFFBEA" text-anchor="middle" letter-spacing="2">WE ARE BUILDING THE FUTURE OF</text>
+
+  <!-- big line with shadow -->
+  <text x="644" y="218" font-family="'Bebas Neue','Helvetica',sans-serif" font-weight="900" font-size="98" fill="#0A0A0A" text-anchor="middle" letter-spacing="1">INTELLIGENT SYSTEMS</text>
+  <text x="640" y="214" font-family="'Bebas Neue','Helvetica',sans-serif" font-weight="900" font-size="98" fill="#FFD60A" text-anchor="middle" letter-spacing="1">INTELLIGENT SYSTEMS</text>
+
+  <!-- subtitle bullets -->
+  <text x="640" y="258" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="17" fill="#00F0FF" text-anchor="middle" letter-spacing="3">BEYOND IMAGINATION ▪ FOR INDIA ▪ AT EDGE SPEED</text>
+
+  <!-- bottom pillars row -->
+  <g transform="translate(60,290)">
+    <text x="0" y="14" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="11" fill="#FFFBEA" opacity="0.7" letter-spacing="2">I. SPEED IS A FEATURE</text>
+    <text x="290" y="14" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="11" fill="#FFFBEA" opacity="0.7" letter-spacing="2">II. ORCHESTRATION &gt; SCALE</text>
+    <text x="640" y="14" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="11" fill="#FFFBEA" opacity="0.7" letter-spacing="2">III. EDGE IS THE NEW CLOUD</text>
+    <text x="985" y="14" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="11" fill="#FFFBEA" opacity="0.7" letter-spacing="2">IV. BUILD IN PUBLIC</text>
+  </g>
+</svg>

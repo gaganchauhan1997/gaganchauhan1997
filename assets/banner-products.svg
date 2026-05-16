@@ -1,0 +1,178 @@
+<svg width="1280" height="820" viewBox="0 0 1280 820" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Featured products: HACKKNOW.COM, YEXCEL, YAHAVI AI, HACKKNOW//OS">
+  <defs>
+    <pattern id="pgrid" x="0" y="0" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#FFD60A" opacity="0.15"/>
+    </pattern>
+    <radialGradient id="prodMagenta" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF006E" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#FF006E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="prodCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="prodSpace" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#050510"/>
+      <stop offset="100%" stop-color="#08081a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect width="1280" height="820" fill="url(#prodSpace)"/>
+  <ellipse cx="200" cy="200" rx="320" ry="260" fill="url(#prodMagenta)"/>
+  <ellipse cx="1100" cy="620" rx="320" ry="260" fill="url(#prodCyan)"/>
+  <rect width="1280" height="820" fill="url(#pgrid)" opacity="0.6"/>
+
+  <!-- SECTION TITLE -->
+  <g transform="translate(60,46)">
+    <rect x="0" y="0" width="16" height="16" fill="#FF006E"/>
+    <text x="28" y="14" font-family="'JetBrains Mono','Courier New',monospace" font-weight="800" font-size="14" fill="#FF006E" letter-spacing="3">02 //</text>
+    <text x="100" y="14" font-family="'JetBrains Mono','Courier New',monospace" font-weight="800" font-size="14" fill="#FFFBEA" letter-spacing="2">▸ PROJECTS · SHIPPED · ACTIVE · UNRELEASED</text>
+  </g>
+  <text x="60" y="120" font-family="'Bebas Neue','Helvetica',sans-serif" font-weight="900" font-size="76" fill="#FFD60A" letter-spacing="2">FEATURED PROJECTS</text>
+  <rect x="60" y="138" width="600" height="3" fill="#FFD60A"/>
+
+  <!-- ═══════════════════════════════════════
+       CARD 01 — HACKKNOW.COM (top-left)
+       ═══════════════════════════════════════ -->
+  <g transform="translate(60,180)">
+    <!-- shadow -->
+    <rect x="8" y="8" width="568" height="280" fill="#0A0A0A"/>
+    <!-- main card -->
+    <rect x="0" y="0" width="568" height="280" fill="#FFD60A" stroke="#0A0A0A" stroke-width="5"/>
+    <!-- header bar -->
+    <rect x="0" y="0" width="568" height="50" fill="#0A0A0A"/>
+    <text x="20" y="31" font-family="'JetBrains Mono','Courier New',monospace" font-weight="800" font-size="12" fill="#FF006E" letter-spacing="2">▸ FLAGSHIP · P01</text>
+    <text x="548" y="31" font-family="'JetBrains Mono','Courier New',monospace" font-weight="800" font-size="12" fill="#FFD60A" text-anchor="end" letter-spacing="1">▸ LIVE</text>
+    <!-- title -->
+    <text x="20" y="110" font-family="'Bebas Neue','Helvetica',sans-serif" font-weight="900" font-size="58" fill="#0A0A0A" letter-spacing="2">HACKKNOW.COM</text>
+    <!-- description -->
+    <text x="20" y="148" font-family="'Inter','Helvetica',sans-serif" font-weight="500" font-size="14" fill="#0A0A0A" opacity="0.85">India's premium digital marketplace. 396+ products. WordPress</text>
+    <text x="20" y="168" font-family="'Inter','Helvetica',sans-serif" font-weight="500" font-size="14" fill="#0A0A0A" opacity="0.85">+ WPGraphQL + Razorpay. Headless commerce on Cloudflare.</text>
+    <!-- stack pills -->
+    <g transform="translate(20,188)">
+      <rect x="0" y="0" width="80" height="22" fill="#0A0A0A"/>
+      <text x="40" y="15" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="10" fill="#FFD60A" text-anchor="middle">REACT 19</text>
+      <rect x="88" y="0" width="92" height="22" fill="#0A0A0A"/>
+      <text x="134" y="15" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="10" fill="#FFD60A" text-anchor="middle">CF WORKERS</text>
+      <rect x="188" y="0" width="86" height="22" fill="#0A0A0A"/>
+      <text x="231" y="15" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="10" fill="#FFD60A" text-anchor="middle">WPGraphQL</text>
+      <rect x="282" y="0" width="78" height="22" fill="#0A0A0A"/>
+      <text x="321" y="15" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="10" fill="#FFD60A" text-anchor="middle">RAZORPAY</text>
+    </g>
+    <!-- metric strip -->
+    <rect x="20" y="222" width="528" height="2" fill="#0A0A0A" opacity="0.2"/>
+    <g transform="translate(20,232)">
+      <text x="0" y="11" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="9" fill="#0A0A0A" opacity="0.6">PRODUCTS</text>
+      <text x="0" y="32" font-family="'Bebas Neue','Helvetica',sans-serif" font-size="26" fill="#0A0A0A" letter-spacing="1">396</text>
+      <text x="120" y="11" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="9" fill="#0A0A0A" opacity="0.6">UPTIME</text>
+      <text x="120" y="32" font-family="'Bebas Neue','Helvetica',sans-serif" font-size="26" fill="#0A0A0A" letter-spacing="1">99.9%</text>
+      <text x="240" y="11" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="9" fill="#0A0A0A" opacity="0.6">CATEGORIES</text>
+      <text x="240" y="32" font-family="'Bebas Neue','Helvetica',sans-serif" font-size="26" fill="#0A0A0A" letter-spacing="1">24</text>
+    </g>
+    <!-- URL footer -->
+    <text x="548" y="265" font-family="'JetBrains Mono','Courier New',monospace" font-weight="800" font-size="11" fill="#FF006E" text-anchor="end" letter-spacing="2">▸ HACKKNOW.COM ↗</text>
+  </g>
+
+  <!-- ═══════════════════════════════════════
+       CARD 02 — YEXCEL (top-right)
+       ═══════════════════════════════════════ -->
+  <g transform="translate(652,180)">
+    <rect x="8" y="8" width="568" height="280" fill="#0A0A0A"/>
+    <rect x="0" y="0" width="568" height="280" fill="#FFFBEA" stroke="#0A0A0A" stroke-width="5"/>
+    <rect x="0" y="0" width="568" height="50" fill="#FF006E"/>
+    <text x="20" y="31" font-family="'JetBrains Mono','Courier New',monospace" font-weight="800" font-size="12" fill="#FFFBEA" letter-spacing="2">▸ AI · FREE · P02</text>
+    <text x="548" y="31" font-family="'JetBrains Mono','Courier New',monospace" font-weight="800" font-size="12" fill="#FFFBEA" text-anchor="end" letter-spacing="1">▸ ZERO DEPS</text>
+    <text x="20" y="110" font-family="'Bebas Neue','Helvetica',sans-serif" font-weight="900" font-size="58" fill="#0A0A0A" letter-spacing="2">YEXCEL</text>
+    <text x="20" y="148" font-family="'Inter','Helvetica',sans-serif" font-weight="500" font-size="14" fill="#0A0A0A" opacity="0.85">CSV → working Excel dashboards. One Cloudflare Worker.</text>
+    <text x="20" y="168" font-family="'Inter','Helvetica',sans-serif" font-weight="500" font-size="14" fill="#0A0A0A" opacity="0.85">No signup. No paywall. 10× faster for Indian professionals.</text>
+    <g transform="translate(20,188)">
+      <rect x="0" y="0" width="92" height="22" fill="#FF006E"/>
+      <text x="46" y="15" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="10" fill="#FFFBEA" text-anchor="middle">CF WORKERS</text>
+      <rect x="100" y="0" width="56" height="22" fill="#FF006E"/>
+      <text x="128" y="15" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="10" fill="#FFFBEA" text-anchor="middle">GROQ</text>
+      <rect x="164" y="0" width="64" height="22" fill="#FF006E"/>
+      <text x="196" y="15" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="10" fill="#FFFBEA" text-anchor="middle">OOXML</text>
+      <rect x="236" y="0" width="76" height="22" fill="#FF006E"/>
+      <text x="274" y="15" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="10" fill="#FFFBEA" text-anchor="middle">PYODIDE</text>
+    </g>
+    <rect x="20" y="222" width="528" height="2" fill="#0A0A0A" opacity="0.15"/>
+    <g transform="translate(20,232)">
+      <text x="0" y="11" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="9" fill="#0A0A0A" opacity="0.6">GEN TIME</text>
+      <text x="0" y="32" font-family="'Bebas Neue','Helvetica',sans-serif" font-size="26" fill="#FF006E" letter-spacing="1">8s</text>
+      <text x="100" y="11" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="9" fill="#0A0A0A" opacity="0.6">COST</text>
+      <text x="100" y="32" font-family="'Bebas Neue','Helvetica',sans-serif" font-size="26" fill="#FF006E" letter-spacing="1">$0</text>
+      <text x="200" y="11" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="9" fill="#0A0A0A" opacity="0.6">DEPS</text>
+      <text x="200" y="32" font-family="'Bebas Neue','Helvetica',sans-serif" font-size="26" fill="#FF006E" letter-spacing="1">0</text>
+    </g>
+    <text x="548" y="265" font-family="'JetBrains Mono','Courier New',monospace" font-weight="800" font-size="11" fill="#FF006E" text-anchor="end" letter-spacing="2">▸ YEXCEL.HACKKNOW.COM ↗</text>
+  </g>
+
+  <!-- ═══════════════════════════════════════
+       CARD 03 — YAHAVI AI (bottom-left)
+       ═══════════════════════════════════════ -->
+  <g transform="translate(60,490)">
+    <rect x="8" y="8" width="568" height="280" fill="#0A0A0A"/>
+    <rect x="0" y="0" width="568" height="280" fill="#FF006E" stroke="#0A0A0A" stroke-width="5"/>
+    <rect x="0" y="0" width="568" height="50" fill="#0A0A0A"/>
+    <text x="20" y="31" font-family="'JetBrains Mono','Courier New',monospace" font-weight="800" font-size="12" fill="#00F0FF" letter-spacing="2">▸ MULTILINGUAL · P03</text>
+    <text x="548" y="31" font-family="'JetBrains Mono','Courier New',monospace" font-weight="800" font-size="12" fill="#FFD60A" text-anchor="end" letter-spacing="1">▸ v3.3</text>
+    <text x="20" y="110" font-family="'Bebas Neue','Helvetica',sans-serif" font-weight="900" font-size="58" fill="#FFFBEA" letter-spacing="2">YAHAVI AI</text>
+    <text x="20" y="148" font-family="'Inter','Helvetica',sans-serif" font-weight="500" font-size="14" fill="#FFFBEA" opacity="0.9">Multilingual sales sensei. EN + हिंदी + Hinglish.</text>
+    <text x="20" y="168" font-family="'Inter','Helvetica',sans-serif" font-weight="500" font-size="14" fill="#FFFBEA" opacity="0.9">v3.3 product-aware upsell. Next: Tamil, Marathi, Bengali.</text>
+    <g transform="translate(20,188)">
+      <rect x="0" y="0" width="74" height="22" fill="#FFFBEA"/>
+      <text x="37" y="15" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="10" fill="#FF006E" text-anchor="middle">GEMINI</text>
+      <rect x="82" y="0" width="62" height="22" fill="#FFFBEA"/>
+      <text x="113" y="15" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="10" fill="#FF006E" text-anchor="middle">GROQ</text>
+      <rect x="152" y="0" width="92" height="22" fill="#FFFBEA"/>
+      <text x="198" y="15" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="10" fill="#FF006E" text-anchor="middle">LANGCHAIN</text>
+      <rect x="252" y="0" width="56" height="22" fill="#FFFBEA"/>
+      <text x="280" y="15" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="10" fill="#FF006E" text-anchor="middle">RAG</text>
+    </g>
+    <rect x="20" y="222" width="528" height="2" fill="#FFFBEA" opacity="0.25"/>
+    <g transform="translate(20,232)">
+      <text x="0" y="11" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="9" fill="#FFFBEA" opacity="0.7">LANGS</text>
+      <text x="0" y="32" font-family="'Bebas Neue','Helvetica',sans-serif" font-size="26" fill="#FFD60A" letter-spacing="1">3 → 6</text>
+      <text x="120" y="11" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="9" fill="#FFFBEA" opacity="0.7">UPSELL</text>
+      <text x="120" y="32" font-family="'Bebas Neue','Helvetica',sans-serif" font-size="26" fill="#FFD60A" letter-spacing="1">+34%</text>
+      <text x="240" y="11" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="9" fill="#FFFBEA" opacity="0.7">CARTS</text>
+      <text x="240" y="32" font-family="'Bebas Neue','Helvetica',sans-serif" font-size="26" fill="#FFD60A" letter-spacing="1">4×</text>
+    </g>
+    <text x="548" y="265" font-family="'JetBrains Mono','Courier New',monospace" font-weight="800" font-size="11" fill="#FFD60A" text-anchor="end" letter-spacing="2">▸ YAHAVIS.HACKKNOW.COM ↗</text>
+  </g>
+
+  <!-- ═══════════════════════════════════════
+       CARD 04 — HACKKNOW//OS (bottom-right) NEW SHOWCASE!
+       ═══════════════════════════════════════ -->
+  <g transform="translate(652,490)">
+    <rect x="8" y="8" width="568" height="280" fill="#0A0A0A"/>
+    <rect x="0" y="0" width="568" height="280" fill="#00F0FF" stroke="#0A0A0A" stroke-width="5"/>
+    <rect x="0" y="0" width="568" height="50" fill="#0A0A0A"/>
+    <text x="20" y="31" font-family="'JetBrains Mono','Courier New',monospace" font-weight="800" font-size="12" fill="#00F0FF" letter-spacing="2">▸ SHOWCASE · P04</text>
+    <text x="548" y="31" font-family="'JetBrains Mono','Courier New',monospace" font-weight="800" font-size="12" fill="#FF006E" text-anchor="end" letter-spacing="1">▸ AWWWARDS-TIER</text>
+    <text x="20" y="110" font-family="'Bebas Neue','Helvetica',sans-serif" font-weight="900" font-size="58" fill="#0A0A0A" letter-spacing="2">HACKKNOW//OS</text>
+    <text x="20" y="148" font-family="'Inter','Helvetica',sans-serif" font-weight="500" font-size="14" fill="#0A0A0A" opacity="0.85">Cinematic developer OS. Cosmic brutalism. Custom cursor,</text>
+    <text x="20" y="168" font-family="'Inter','Helvetica',sans-serif" font-weight="500" font-size="14" fill="#0A0A0A" opacity="0.85">live terminal, command palette, ambient drone. Zero deps.</text>
+    <g transform="translate(20,188)">
+      <rect x="0" y="0" width="74" height="22" fill="#0A0A0A"/>
+      <text x="37" y="15" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="10" fill="#00F0FF" text-anchor="middle">VANILLA</text>
+      <rect x="82" y="0" width="78" height="22" fill="#0A0A0A"/>
+      <text x="121" y="15" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="10" fill="#00F0FF" text-anchor="middle">CANVAS</text>
+      <rect x="168" y="0" width="96" height="22" fill="#0A0A0A"/>
+      <text x="216" y="15" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="10" fill="#00F0FF" text-anchor="middle">WEBAUDIO</text>
+      <rect x="272" y="0" width="78" height="22" fill="#0A0A0A"/>
+      <text x="311" y="15" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="10" fill="#00F0FF" text-anchor="middle">GH PAGES</text>
+    </g>
+    <rect x="20" y="222" width="528" height="2" fill="#0A0A0A" opacity="0.2"/>
+    <g transform="translate(20,232)">
+      <text x="0" y="11" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="9" fill="#0A0A0A" opacity="0.6">SIZE</text>
+      <text x="0" y="32" font-family="'Bebas Neue','Helvetica',sans-serif" font-size="26" fill="#0A0A0A" letter-spacing="1">38 KB</text>
+      <text x="110" y="11" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="9" fill="#0A0A0A" opacity="0.6">FPS</text>
+      <text x="110" y="32" font-family="'Bebas Neue','Helvetica',sans-serif" font-size="26" fill="#0A0A0A" letter-spacing="1">60</text>
+      <text x="190" y="11" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="9" fill="#0A0A0A" opacity="0.6">SHORTCUTS</text>
+      <text x="190" y="32" font-family="'Bebas Neue','Helvetica',sans-serif" font-size="26" fill="#0A0A0A" letter-spacing="1">8+</text>
+    </g>
+    <text x="548" y="265" font-family="'JetBrains Mono','Courier New',monospace" font-weight="800" font-size="11" fill="#FF006E" text-anchor="end" letter-spacing="2">▸ TRY THE LIVE DEMO ↗</text>
+  </g>
+</svg>

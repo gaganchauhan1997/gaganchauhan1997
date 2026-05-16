@@ -1,0 +1,68 @@
+<svg width="1280" height="260" viewBox="0 0 1280 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Building in public — for India — in the open">
+  <defs>
+    <linearGradient id="fSpace" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#050510"/>
+      <stop offset="100%" stop-color="#0a0420"/>
+    </linearGradient>
+    <pattern id="fgrid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#FFD60A" opacity="0.15"/>
+    </pattern>
+    <radialGradient id="fglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF006E" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#FF006E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="260" fill="url(#fSpace)"/>
+  <ellipse cx="640" cy="130" rx="500" ry="160" fill="url(#fglow)"/>
+  <rect width="1280" height="260" fill="url(#fgrid)" opacity="0.4"/>
+
+  <!-- Hard shadow -->
+  <rect x="74" y="38" width="1132" height="172" fill="#0A0A0A"/>
+  <!-- Main yellow card -->
+  <rect x="60" y="24" width="1132" height="172" fill="#FFD60A" stroke="#0A0A0A" stroke-width="6"/>
+
+  <!-- corner brackets -->
+  <g fill="#0A0A0A">
+    <rect x="60" y="24" width="18" height="4"/>
+    <rect x="60" y="24" width="4" height="18"/>
+    <rect x="1174" y="24" width="18" height="4"/>
+    <rect x="1188" y="24" width="4" height="18"/>
+    <rect x="60" y="192" width="18" height="4"/>
+    <rect x="60" y="178" width="4" height="18"/>
+    <rect x="1174" y="192" width="18" height="4"/>
+    <rect x="1188" y="178" width="4" height="18"/>
+  </g>
+
+  <!-- Main headline -->
+  <text x="640" y="92" font-family="'Bebas Neue','Helvetica',sans-serif" font-weight="900" font-size="62" fill="#0A0A0A" text-anchor="middle" letter-spacing="2">BUILDING IN PUBLIC ▪ FOR INDIA ▪ IN THE OPEN</text>
+
+  <!-- subtitle -->
+  <text x="640" y="128" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="18" fill="#0A0A0A" text-anchor="middle" opacity="0.85" letter-spacing="3">MADE WITH ❤ IN DELHI · हिंदी, ENGLISH, HINGLISH</text>
+
+  <!-- bottom black terminal stripe -->
+  <rect x="60" y="158" width="1132" height="38" fill="#0A0A0A"/>
+  <text x="80" y="183" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="13" fill="#FFD60A" letter-spacing="1">$ gagan@hackknow:~$ next_project &amp;&amp; coffee &amp;&amp; ship</text>
+  <text x="1172" y="183" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="13" fill="#FF006E" text-anchor="end" letter-spacing="2">© 2026 · MIT · ✦</text>
+
+  <!-- Magenta accent block bottom-right corner of card -->
+  <rect x="1086" y="34" width="98" height="36" fill="#FF006E" stroke="#0A0A0A" stroke-width="4"/>
+  <text x="1135" y="58" font-family="'JetBrains Mono','Courier New',monospace" font-weight="800" font-size="12" fill="#FFFBEA" text-anchor="middle" letter-spacing="2">★ 2026</text>
+
+  <!-- floating dots outside card -->
+  <g>
+    <circle cx="24" cy="40" r="3" fill="#FFD60A"/>
+    <circle cx="42" cy="38" r="2" fill="#FF006E"/>
+    <circle cx="1256" cy="40" r="3" fill="#00F0FF"/>
+    <circle cx="1240" cy="42" r="2" fill="#FFD60A"/>
+  </g>
+
+  <!-- Cosmic star sprinkles -->
+  <g fill="#FFFBEA">
+    <circle cx="120" cy="240" r="1.2"/>
+    <circle cx="400" cy="244" r="1"/>
+    <circle cx="640" cy="238" r="1.4"/>
+    <circle cx="880" cy="242" r="1.1"/>
+    <circle cx="1160" cy="240" r="1.3"/>
+  </g>
+</svg>
